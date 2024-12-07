@@ -32,22 +32,22 @@ class XcaliberApp:
 
         self.notebook.pack(expand=1, fill="both")
 
-        # Scan Calibration
+        # scan calibration
         self.create_scan_tab()
 
-        # Payload Tuning
+        # payload calibration
         self.create_payload_tab()
 
-        # Rate Limiting
+        # rate limiting
         self.create_rate_tab()
 
-        # Environment Testing
+        # environment testing
         self.create_env_tab()
 
-        # Burp Suite Integration
+        # burp suite integration
         self.create_burp_tab()
 
-        # Metasploit Integration
+        # metasploit integration
         self.create_metasploit_tab()
 
     def create_scan_tab(self):
